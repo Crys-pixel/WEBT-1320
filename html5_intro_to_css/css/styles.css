@@ -1,0 +1,38 @@
+body{
+    background-color: skyblue;
+}
+
+#container {
+    background-color: lightgreen;
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid gray;
+}
+
+header{
+    text-align: center;
+}
+
+header h1{
+    color: black;
+    text-shadow: 2px 2px 5px black;
+}
+
+nav{
+    text-align: center;
+}
+
+nav a{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+
+footer{
+    text-align: center;
+}
