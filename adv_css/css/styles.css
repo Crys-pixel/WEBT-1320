@@ -1,0 +1,121 @@
+body{
+    background-color: aquamarine;
+}
+
+img{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#container{
+    width: 100%;
+    margin: 20px auto;
+    background-color: palevioletred;
+    border-radius: 2px 2px 2px 2px;
+}
+
+header{
+    background-color: orange;
+    text-align: center;
+    padding: 40px;
+}
+
+header h1{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+nav{
+    background-color: rgb(123, 218, 221);
+    text-align: center;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav li a{
+    background-color: yellowgreen;
+    display: block;
+    width: 150px;
+    height: 40px;
+    margin: 5px;
+    line-height: 40px;
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+nav li a:hover{
+    background-color: yellow;
+}
+
+main{
+    background-color: rgb(161, 88, 228);
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+}
+
+main img{
+    width: 40%;
+}
+
+main h2{
+    text-align: center;
+}
+
+footer{
+    background-color: red;
+    color: gold;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.tstyle{
+    color: rgb(199, 199, 255);
+    text-shadow: 1px 1px 1px black;
+}
+
+#main_section{
+    display: flex;
+}
+
+section, 
+aside{
+    background-color: white;
+    padding: 10px;
+    margin: 20px;
+}
+
+section{
+    width: 70%;
+}
+
+aside{
+    width: 30%;
+}
+
+table{
+    width: 90%;
+    display: block;
+    margin: 20px auto;
+    background-color: aqua;
+}
+
+tr, td{
+    text-align: center;
+    border: 2px solid black;
+    width: 200px;
+    height: 40px;
+}
+
+#single_page{
+    width: 100%;
+}
